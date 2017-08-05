@@ -1,0 +1,26 @@
+{
+    "name": "kocal/zend-expressive-doctrinedatabase",
+    "description": "Doctrine database integration for Expressive",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Hugo Alliaume",
+            "email": "kocal@live.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kocal\\Expressive\\Database\\Doctrine\\": "src/",
+            "Kocal\\Expressive\\Database\\Doctrine\\Test\\": "test/"
+        }
+    },
+    "require": {
+        "psr/container": "^1.0",
+        "doctrine/orm": "2.4.*",
+        "kocal/zend-expressive-database": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    }
+}
